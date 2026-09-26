@@ -1,25 +1,25 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "1st post",
       "datetime": "July 16, 2026 11:47:39 AM",
       "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "2st post",
       "datetime": "July 16, 2026 11:47:39 AM",
       "body": "2st post Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "3st post",
       "datetime": "July 16, 2026 11:47:39 AM",
       "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Another Post",
       "datetime": "August 06 2026 8:09:56 PM",
       "body": "Post A!"

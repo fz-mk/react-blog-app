@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# React JS Blog - v3: Axios & Custom Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the third version of the React JS Blog project! In this iteration, the focus shifts towards code refactoring, cleaner data fetching, and logic reusability by introducing Axios and React Custom Hooks.
 
-## Available Scripts
+## 🚀 Project Overview
 
-In the project directory, you can run:
+While the previous version successfully fetched data using the native Fetch API, this stage upgrades the HTTP client to **Axios** for more robust and streamlined requests. Furthermore, complex logic—such as data fetching and responsive window measurements—has been abstracted out of the components and into dedicated **Custom Hooks** (`useAxiosFetch` and `useWindowSize`).
 
-### `npm start`
+## 🛠️ Tech Stack & Concepts Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React.js**: Functional components.
+- **Axios**: A promise-based HTTP client for the browser and node.js.
+- **Custom Hooks**: Encapsulating reusable logic.
+- **JSON-Server**: Mock REST API database.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- **Refactored API Calls**: Using Axios to handle CRUD operations automatically, simplifying JSON parsing and error handling.
+- **`useAxiosFetch` Hook**: A dedicated custom hook to fetch data, handle loading states, and catch errors cleanly across the application.
+- **`useWindowSize` Hook**: The responsive device icon logic is now powered by a custom hook that actively listens to window resize events, making the header component much cleaner.
+- **Improved Error Handling**: Better visual feedback for the user if the server is down or a request fails.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📝 What I Learned
 
-### `npm run build`
+- How to build and implement Custom Hooks to keep React components DRY (Don't Repeat Yourself).
+- The advantages of Axios over the native Fetch API (e.g., automatic JSON transformation, better error handling).
+- Abstracting side effects and state management out of UI components to improve code readability and maintenance.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ How to Run Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the repository and switch to the correct branch for version 3.
+2. Open your terminal in the project directory and install dependencies: `npm install`
+3. Open a separate terminal window to start the mock database: `npx json-server -p 3500 -w data/db.json`
+4. In the first terminal window, start the React app: `npm start`
