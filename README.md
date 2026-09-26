@@ -1,35 +1,70 @@
-# React JS Blog - v1: Simple State
+# Getting Started with Create React App
 
-Welcome to the first version of the React JS Blog project! This iteration represents the foundational build of the application, focusing on UI layout, component structure, and basic React state management.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Project Overview
+## Available Scripts
 
-In this initial stage, the blog data is managed using a simple **JavaScript Array** (Local State). There are no external databases or APIs yet. The main goal of this version is to establish the application's structure, build the user interface, and handle data flow using React's core features.
+In the project directory, you can run:
 
-## 🛠️ Tech Stack & Concepts Used
+### `npm start`
 
-- **React.js**: Functional components.
-- **useState Hook**: To manage the list of posts and search input state.
-- **Props**: Passing data from parent components to children.
-- **Responsive Design**: Basic CSS and responsive logic.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## ✨ Features
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- **Read Posts**: Displays a list of hardcoded blog posts on the home page.
-- **Search Functionality**: A search bar that filters posts dynamically based on their title or body.
-- **Responsive Device Icon**: A dynamic icon in the header that changes based on the user's screen size (Laptop, Tablet, or Mobile).
-- **Component Modularity**: Clean separation of UI elements (Header, Nav, Footer, Feed, Post).
+### `npm test`
 
-## 📝 What I Learned
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- Structuring a React application from scratch.
-- Managing local state effectively using `useState`.
-- Handling form inputs (Search bar) as controlled components.
-- Conditional rendering based on user actions and screen dimensions.
+### `npm run build`
 
-## ⚙️ How to Run Locally
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-1. Clone the repository.
-2. Ensure you are on the correct branch (e.g., v1-local-storage).
-3. Open your terminal in the project directory and run: `npm install`
-4. Start the development server by running: `npm start`
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
