@@ -68,6 +68,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  transition: 0.3s;
 }
 
 .searchForm {
@@ -111,6 +112,8 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
+
 
 .Nav li:hover, 
 .Nav li:focus, 
