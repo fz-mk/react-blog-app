@@ -1,28 +1,22 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "1st post",
-      "datetime": "July 16, 2026 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
+      "id": "teV_CHHbOt4",
+      "title": "Another post",
+      "datetime": "September 26, 2026 1:27:37 PM",
+      "body": "Hello ✋"
     },
     {
-      "id": "2",
-      "title": "2st post",
-      "datetime": "July 16, 2026 11:47:39 AM",
-      "body": "2st post Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
+      "id": "xC03Ww5ztxY",
+      "title": "Welcome 👏",
+      "datetime": "September 25, 2026 7:31:23 PM",
+      "body": "Coding....☕"
     },
     {
-      "id": "3",
-      "title": "3st post",
-      "datetime": "July 16, 2026 11:47:39 AM",
-      "body": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ut laborum, animi, laudantium tempore earum similique unde sapiente quo voluptates laboriosam voluptatibus voluptas dolores sed ipsum error aliquid sint omnis!"
-    },
-    {
-      "id": "4",
-      "title": "Another Post",
-      "datetime": "August 06 2026 8:09:56 PM",
-      "body": "Post A!"
+      "id": "Hj3cZYbS51o",
+      "title": "React JS Blog 🚀",
+      "datetime": "September 26 2026 1:29:31 PM",
+      "body": "Welcome to the fourth version of the React JS Blog project!"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
