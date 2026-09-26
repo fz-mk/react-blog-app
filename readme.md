@@ -45,10 +45,10 @@ Here is a quick 1-minute video showcasing the UI, CRUD operations, real-time sea
 
 If you'd like to test the app on your local machine, follow these steps:
 
-1. **Clone the repository:** `git clone [Your-GitHub-Repository-URL]`
-2. **Navigate to the project directory:** `cd [Your-Repository-Name]`
+1. **Clone the repository:** `git clone [https://github.com/fz-mk/react-blog-app]`
+2. **Navigate to the project directory:** `cd [Your-Repository or Folder Name] `
 3. **Install dependencies:** `npm install`
-4. **Start the JSON Server (Fake API):** `npx json-server data/db.json --port 3500` (Run this in a separate terminal).
+4. **Start the JSON Server (Fake API):** `npx json-server data/db.json --port 3500 ` (Run this in a separate terminal).
 5. **Start the development server:** `npm start` (The app will run at `http://localhost:3000`).
 
 ---
